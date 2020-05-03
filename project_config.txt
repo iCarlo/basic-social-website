@@ -1,0 +1,12 @@
+project_name = desired name for your project
+
+default settings configurations is local on these files:
+*manage.py
+*config/asgi.py
+*config/wsgi.py
+
+when copying apps:
+*change the app name in apps.py into "apps.<name_of_app>"
+*update the urlpatterns in config/urls.py
+*update the INSTALLED_APPS in config/settings/base.py
+*update your different setttings configurations in your config/settings
